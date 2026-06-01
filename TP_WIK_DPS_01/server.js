@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const http = require("http");
 
 const port = process.env.PING_LISTEN_PORT || 3000;
